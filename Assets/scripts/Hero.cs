@@ -3,8 +3,8 @@ using System.Collections;
 
 public class Hero : MonoBehaviour {
 
-	public float maxSpeed = 6f;
-	public float maxSpeedFalling = 4f;
+	public float maxSpeed = 50f;
+	public float maxSpeedFalling = 5f;
 
 	private float speed;
 
@@ -13,12 +13,15 @@ public class Hero : MonoBehaviour {
 	public LayerMask whatIsGround;
 	public Transform groundCheck;
 
-	bool facingRight = true;
+	public bool facingRight = true;
 
 	public float jumpForce = 40f;
 
 	private Rigidbody2D rb;
 	private Animator anim;
+
+	private float nextJump = 0f;
+	public float jumpRate = 1f;
 
 	// Use this for initialization
 	void Start () { 
@@ -30,15 +33,19 @@ public class Hero : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (grounded && Input.GetButton("Jump")) {
-			anim.SetBool("Ground", false);
-			rb.AddForce(new Vector2(0, jumpForce));
-		}
 	}
 	void FixedUpdate() {
 		// Checo se está no chão
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 		anim.SetBool ("Ground", grounded);
+		print(grounded);
+
+		if (grounded && Input.GetButton("Jump") && Time.time > nextJump) {
+			print("Pular");
+			nextJump = Time.time + jumpRate;
+			anim.SetBool("Ground", false);
+			rb.AddForce(new Vector2(0, jumpForce));
+		}		
 
 		float move = Input.GetAxis("Horizontal");
 		anim.SetFloat ("Speed", Mathf.Abs(move));
@@ -58,14 +65,20 @@ public class Hero : MonoBehaviour {
 			speed = maxSpeed;
 		}
 
-		if (move > 0) {
-			facingRight = true;
-		} else {
-			facingRight = false;
-		}
 		anim.SetBool ("FacingRight", facingRight);
 
-			
+		if (move > 0 && !facingRight)
+			flip();
+		else if (move < 0 && facingRight)
+			flip();
+
 		rb.velocity = new Vector2(move * speed, rb.velocity.y);
+
+	}
+	void flip(){
+		facingRight = !facingRight;
+		Vector3 theScale = transform.localScale;
+		theScale.x *= -1;
+		transform.localScale = theScale;
 	}
 }
