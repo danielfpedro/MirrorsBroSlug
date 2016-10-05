@@ -26,18 +26,20 @@ public class Arm : MonoBehaviour {
 
 		float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
 		// Não gira além de 90 graus
-		if (angle < 90f && angle > -90f || 1 == 1) {
-			print(angle);
+		if (angle < 90f && angle > -90f)
+			transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+		// if (angle < 90f && angle > -90f || 1 == 1) {
+		// 	print(angle);
 
-			Hero hero = GameObject.Find("hero").GetComponent<Hero>();
+		// 	Hero hero = GameObject.Find("hero").GetComponent<Hero>();
 
-			if (!hero.facingRight)
-				if ((angle > 90f && angle < 180f) && (angle > -180f && angle < -90f))
-					transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + 180));
-			else
-				if (angle < 90f && angle > -90f)
-					transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
-		}
+		// 	if (!hero.facingRight)
+		// 		if ((angle > 90f && angle < 180f) && (angle > -180f && angle < -90f))
+		// 			transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle + 180));
+		// 	else
+		// 		if (angle < 90f && angle > -90f)
+		// 			transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
+		// }
 		
 	}
 }

@@ -38,7 +38,7 @@ public class Hero : MonoBehaviour {
 		// Checo se está no chão
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
 		anim.SetBool ("Ground", grounded);
-		print(grounded);
+		// print(grounded);
 
 		if (grounded && Input.GetButton("Jump") && Time.time > nextJump) {
 			print("Pular");
