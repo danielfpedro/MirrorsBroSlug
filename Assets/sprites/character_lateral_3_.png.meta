@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 21590c4713e41c042a6a0732aa743798
+timeCreated: 1475809162
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: character_lateral_3__0
+    21300002: character_lateral_3__1
+    21300004: character_lateral_3__2
+    21300006: character_lateral_3__3
+    21300008: character_lateral_3__4
+    21300010: character_lateral_3__5
+    21300012: character_lateral_3__6
+    21300014: character_lateral_3__7
+    21300016: character_lateral_3__8
+    21300018: character_lateral_3__9
+    21300020: character_lateral_3__10
+    21300022: character_lateral_3__11
+    21300024: character_lateral_3__12
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: character_lateral_3__0
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 1637
+        width: 467
+        height: 408
+      alignment: 9
+      pivot: {x: 0.4394329, y: 0.09559961}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__1
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 1645
+        width: 88
+        height: 181
+      alignment: 9
+      pivot: {x: 0.60714096, y: 0.18746021}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__2
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1054
+        width: 93
+        height: 298
+      alignment: 9
+      pivot: {x: 0.50000036, y: 0.8638445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__3
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 997
+        width: 286
+        height: 539
+      alignment: 9
+      pivot: {x: 0.5329664, y: 0.0976789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__4
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 1136
+        width: 117
+        height: 296
+      alignment: 9
+      pivot: {x: 0.3791243, y: 0.8663029}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 489
+        width: 115
+        height: 301
+      alignment: 9
+      pivot: {x: 0.418015, y: 0.82889473}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__6
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 620
+        width: 77
+        height: 298
+      alignment: 9
+      pivot: {x: 0.6224464, y: 0.84802514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 757
+        width: 133
+        height: 299
+      alignment: 9
+      pivot: {x: 0.35822085, y: 0.8310945}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__8
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 138
+        width: 95
+        height: 304
+      alignment: 9
+      pivot: {x: 0.5496216, y: 0.8411563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__9
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 405
+        width: 77
+        height: 302
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8434155}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__10
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 245
+        width: 95
+        height: 304
+      alignment: 9
+      pivot: {x: 0.50000066, y: 0.85666347}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 5
+        width: 209
+        height: 116
+      alignment: 9
+      pivot: {x: 0.1616638, y: 0.78447706}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: character_lateral_3__12
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 80
+        width: 209
+        height: 117
+      alignment: 9
+      pivot: {x: 0.25188655, y: 0.6611686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

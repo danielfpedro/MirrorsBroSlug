@@ -25,7 +25,7 @@ public class Enemy : MonoBehaviour {
 			{
 				Vector2 hitPoint = hit.point;
 				ParticleSystem bloodParticle = Instantiate(blood, new Vector3(hitPoint.x, hitPoint.y, 0), Quaternion.identity) as ParticleSystem;
-				Destroy(bloodParticle.gameObject, 2f);
+				Destroy(bloodParticle.gameObject, 4f);
 			}
 		}
 	}

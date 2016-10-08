@@ -6,7 +6,7 @@ public class Weapon : MonoBehaviour {
 	public float fireRate = 0.5f;
 	public float shotSpeed = 2000f;
 
-	public float lifetime = 3f;
+	public float lifetime = 10.0f;
 
 	public GameObject bullet;
 	public Transform BulletSpawn;
